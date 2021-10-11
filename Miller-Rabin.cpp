@@ -57,6 +57,14 @@ vector<ll>a({2,3,5,7,11,13,17,19,23});
 //a represent random numbers.
 // here we r taking a as first 9 primes. 
 //it is seen that it gives good accuracy till 10^18 numbers.
+    
+    
+// 2 conditions for n to be prime:
+    // (a ^ d ) % n = 1
+    //a ^ ( d* (2^i) ) % n =  n-1 for all i from0 to s-1.
+    // a is a random no.
+    // n = (odd no. d) * (2^s)
+    
 
 for(int i=0;i<a.size();i++){
     if(a[i]>n-2) continue; //we r taking mod from n so it should be less than n.
