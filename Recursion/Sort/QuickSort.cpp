@@ -19,7 +19,7 @@ int partition(int *a,int s,int e){
         }
         j=j+1;
     }
-    //bringing pivot element to its cuttect position.
+    //bringing pivot element to its correct position.
     swap(a[i+1],a[e]);
     return i+1;
 
