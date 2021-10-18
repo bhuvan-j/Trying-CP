@@ -2,6 +2,7 @@
 #include<set>
 #include<string>
 using namespace std;
+//NAIVE APPROACH. CHECK ADVANCED BACKTRACKING USING BITMASK FOR EFFICIENT APPROACH.
 bool canplace(int board[][10],int i,int j,int n){
     int x=i;
     int y=j;
